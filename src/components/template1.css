@@ -1,0 +1,13 @@
+.resume-container{
+    max-width: 900px;
+    margin: auto;
+
+}
+.header{
+    text-align: center;
+}
+.contact{
+    display:flex ;
+    justify-content:center ;
+    gap: 20px;
+}

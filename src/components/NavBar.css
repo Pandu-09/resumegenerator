@@ -1,0 +1,27 @@
+.container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: rgb(234, 223, 95);
+ border: 1px solid rbg(168 ,164, 164);
+ box-shadow: 0 10px 4px rgb(124, 32, 45);
+
+}
+
+.logo{
+    font-size: 2rem;
+    color: rbg(0, 162, 255);
+}
+.navlinks{
+    display: flex;
+    gap:20px;
+
+}
+a{
+    text-decoration: none;
+    color: rbg(66, 61, 61);
+    font-size: 1.5rem;
+}
+a:hover{
+    color: rgb(2, 2, 5);
+}
