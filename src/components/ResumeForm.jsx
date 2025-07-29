@@ -46,7 +46,7 @@ function ResumeForm({resumeData,setResumeData})
             <div className="section">
                 <h2 className='title'>Personel details</h2>
                 <div className='input-group'>
-                    <input type="text" placeholder="enter your name" value={resumeData["personelDetails"].name}  onChange={(e)=>updateFeild("personelDetails","name",e.target.value)}/>
+                    <input type="text" placeholder="enter your full name" value={resumeData["personelDetails"].name}  onChange={(e)=>updateFeild("personelDetails","name",e.target.value)}/>
                     <input type="text" placeholder="enter your email" value={resumeData["personelDetails"].email} onChange={(e)=>updateFeild("personelDetails","email",e.target.value)}/>
                     <input type="text" placeholder="enter your github" value={resumeData["personelDetails"].github} onChange={(e)=>updateFeild("personelDetails","github",e.target.value)}/>
                     <input type="text" placeholder="enter your linkedin" value={resumeData["personelDetails"].linkedIn} onChange={(e)=>updateFeild("personelDetails","linkedIn",e.target.value)}/>
