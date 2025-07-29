@@ -35,6 +35,12 @@ function ResumeForm({resumeData,setResumeData})
     }
 
 
+    function saveData()
+    {
+        localStorage.setItem("resumeDetails",JSON.stringify(resumeData))
+    }
+
+
     return(
         <div className="form-container">
             <div className="section">
@@ -141,6 +147,7 @@ function ResumeForm({resumeData,setResumeData})
             </div>
 
 
+                <button onClick={()=>saveData()}>Save</button>
         </div>
     )
 }
